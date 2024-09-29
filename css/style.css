@@ -1,60 +1,142 @@
-b{
+body{
+    margin: auto;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    line-height: 2rem;
+    background-color: #F3E5D8;
+    padding: 3rem;
     
 }
 
-{
+.container{
+    width: 48%;
+    margin: auto;
+    padding: 2.5rem 2.5rem .5rem 2.5rem;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.container__title{
+    font-family: "Young serif", sans-serif;
+    font-size: 2.4rem;
+    font-weight: lighter;
+    margin: 2.5rem 0;
+    color: black;
     
 }
 
-{
+.subject__section__title{
+    font-family: "Young serif", sans-serif;
+    font-size: 1.7rem;
+    font-weight:lighter;
+    color: #83422C;
+    margin: 1.5rem 0;
+
     
 }
 
-{
+.subject__section__subtitle{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #6C324C;
+    margin-bottom: .5rem;
     
 }
 
-{
+img{
+    max-width: 100%;
+    width: 100%;
+    border-radius: .8rem;
     
 }
 
-{
+.recipe-information{
+    background-color: #FFF7FB;
+    border-radius: .8rem;
+    padding: 1.5rem 0 1.8rem 2rem;
+    margin: 2rem 0;
+     
+}
+
+.bold{
+    font-weight: bold;
     
 }
 
-{
+.subject__section2{
+    padding-bottom: 2rem ;
+    border-bottom: hsl(30, 18%, 87%) 1px solid;
     
 }
 
-{
+.subject__section3{
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+    border-bottom: hsl(30, 18%, 87%) 1px solid;
     
 }
 
-{
+.subject__section4{
+    margin: 2rem 0;
     
 }
 
-{
+ol li::marker{ 
+    color: #83422C;
+    font-weight: bold;
+    padding-right: 1rem;
     
 }
 
-{
+.subject__section3__list li::marker{
+    color: #83422C;
+
     
 }
 
-{
+.subject__section2__list li::marker{
+    color: #6C324C;
     
 }
 
-{
+ol li {
+    padding-left: 1rem;
     
 }
 
-{
+ul li {
+    padding-left: 1rem;
     
 }
 
-{
+.table{
+    padding-left: 15rem;
+    padding-right: 14rem;
+    color: #83422C;
     
 }
 
+
+td{
+    border-bottom: hsl(30, 18%, 87%) 1px solid;
+    padding: .5rem;
+    
+}
+
+.line-left{
+    padding-left: 3rem;
+    
+}
+
+
+tr{
+    padding: 2rem;
+    
+}
+
+.subject__section4_para{
+    padding-bottom: 1rem;
+    
+}

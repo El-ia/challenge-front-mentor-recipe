@@ -1,78 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Recipe page</title>
-  <link rel="stylesheet" href="../css/reset.css"/>
-  <link rel="stylesheet" href="../css/style.css"/>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <title>Frontend Mentor | Recipe page</title>
+  </head>
 <body>
   <div class="container">
-    <h1 class="container__title1">Simple Omelette Recipe</h1>
+    <img src="../assets/images/image-omelette.jpeg" alt="omelette">
+    <h1 class="container__title">Simple Omelette Recipe</h1>
     <main class="subject">
       <section class="subject__section1">
         <p clas="subject__section1__para">
           An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
           to perfection, optionally filled with your choice of cheese, vegetables, or meats.
         </p>
-        <h2 class="subject__section__title2">Preparation time</h2>
-        <ul class="subject__section2__list">
-          <li>Total: Approximately 10 minutes</li>
-          <li>Preparation: 5 minutes</li>
-          <li>Cooking: 5 minutes</li>
-        </ul>
+        <div class="recipe-information">
+          <h2 class="subject__section__subtitle">Preparation time</h2>
+          <ul class="subject__section2__list">
+            <li><span class="bold">Total</span>: Approximately 10 minutes</li>
+            <li><span class="bold">Preparation</span>: 5 minutes</li>
+            <li><span class="bold">Cooking</span>: 5 minutes</li>
+          </ul>
+        </div>
       </section>
       <section class="subject__section2">
-        <h2 class="subject__section2__title2">Ingredients</h2>
-        <ul class="subject__section2__list">
+        <h3 class="subject__section__title">Ingredients</h3>
+        <ul class="subject__section3__list">
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
           <li>Pepper, to taste</li>
           <li>1 tablespoon of butter or oil</li>
-          Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
         </ul>
       </section>
       <section class="subject__section3">
-        <h2 class="subject__section3__title">Instructions</h2>
+        <h3 class="subject__section__title">Instructions</h3>
         <ol class="subject__section3__list">
           <li>
-            Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            <span class="bold">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
             You can add a tablespoon of water or milk for a fluffier texture.
           </li>
-          <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+          <li><span class="bold">Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
           <li>
-            Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+            <span class="bold">Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
             the eggs evenly coat the surface.
           </li>
           <li>
-            Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the
+            <span class="bold">Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the
             middle, sprinkle your chosen fillings over one half of the omelette.
           </li>
           <li>
-            Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the
+            <span class="bold">Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the
             fillings. Let it cook for another minute, then slide it onto a plate.
           </li>
-          <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+          <li><span class="bold">Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
       </section>
         <section class="subject__section4">
-          <h3 class="subject__section4__title">Nutrition</h3>
+          <h3 class="subject__section__title">Nutrition</h3>
                 <p class="subject__section4_para1">The table below shows nutritional values per serving without the additional fillings.</p>
-                <p>
-                  Calories
-                  277kcal
-                  Carbs
-                  0g
-                  Protein
-                  20g
-                  Fat
-                  22g
-                </p>
+                <table>
+                  <tr>
+                    <td class="line-left">Calories</td>
+                    <td><span class="bold table">277kcal</span></td>
+                  </tr>
+                  <tr>
+                    <td class="line-left">Carbs</td>
+                    <td><span class="bold table">0g</span></td>
+                  </tr>
+                  <tr>
+                    <td class="line-left">Protein</td>
+                    <td><span class="bold table">20g</span></td>
+                  </tr>
+                  <tr>
+                    <td class="line-left">Fat</td>
+                    <td><span class="bold table">22g</span></td>
+                  </tr>
+                  </table>
         </section>
     </main>
+    
     
   </div>
 </body>
